@@ -1,0 +1,90 @@
+print("Start: ~/.config/nvim/lua/morty/init.lua")
+require("morty.settings")
+require("morty.navigations")
+require("morty.mappings")
+require("morty.autocmds")
+ 
+-- ----------------------------
+-- TIPS & TRICKS
+-- ----------------------------
+-- default map        my map      Description
+-- /cmd               /alias
+-- <C-g>                          Show filename and position (percentage)
+-- g <C-g>                        Show detailed position (line, col, word, byte count)
+--
+-- :vs [file]         Space v     Vertical split    Space v
+-- :sp [file]         Space h     Horizontal split  Space h
+-- nvim .             v .                   Go directly to netrw, starting in current working dir
+-- Ctrl+ Ctrl- Ctrl0  
+-- :Ex               Space nr     :Explore / netrw
+
+
+-- ------------------------------------
+-- :r !tree --gitignore ~/.config
+-- ------------------------------------
+--
+-- /home/m/.config
+-- ├── alacritty
+-- │   └── alacritty.toml
+-- ├── dmenu
+-- │   ├── arg.h
+-- │   ├── config.def.h
+-- │   ├── config.h
+-- │   ├── config.mk
+-- │   ├── dmenu
+-- │   ├── dmenu.1
+-- │   ├── dmenu.c
+-- │   ├── dmenu.o
+-- │   ├── dmenu_path
+-- │   ├── dmenu_run
+-- │   ├── drw.c
+-- │   ├── drw.h
+-- │   ├── drw.o
+-- │   ├── LICENSE
+-- │   ├── Makefile
+-- │   ├── README
+-- │   ├── stest
+-- │   ├── stest.1
+-- │   ├── stest.c
+-- │   ├── stest.o
+-- │   ├── util.c
+-- │   ├── util.h
+-- │   └── util.o
+-- ├── dwm
+-- │   ├── config.def.h
+-- │   ├── config.h
+-- │   ├── config.mk
+-- │   ├── drw.c
+-- │   ├── drw.h
+-- │   ├── drw.o
+-- │   ├── dwm
+-- │   ├── dwm.1
+-- │   ├── dwm.c
+-- │   ├── dwm.o
+-- │   ├── dwm.png
+-- │   ├── LICENSE
+-- │   ├── Makefile
+-- │   ├── my-changes.patch
+-- │   ├── README
+-- │   ├── transient.c
+-- │   ├── util.c
+-- │   ├── util.h
+-- │   └── util.o
+-- ├── htop
+-- │   └── htoprc
+-- ├── my-readme.txt
+-- ├── nvim
+-- │   ├── init.lua
+-- │   ├── lua
+-- │   │   └── morty
+-- │   │       ├── init.lua
+-- │   │       ├── mappings.lua
+-- │   │       ├── navigation.lua
+-- │   │       └── settings.lua
+-- │   └── README.md
+-- ├── README.md
+-- └── tmux
+--     └── tmux.conf
+-- 
+-- 9 directories, 53 files
+--
