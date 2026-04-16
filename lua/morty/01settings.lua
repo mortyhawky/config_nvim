@@ -1,10 +1,10 @@
 -- --------------------------------------------------------
--- SETTINGS   ~/.config/nvim/lua/morty/settings.lua
+-- 01SETTINGS   ~/.config/nvim/lua/morty/01settings.lua
 -- --------------------------------------------------------
 
 
 -- --------------------------------------------------------
--- MY ADDON:
+-- MY ADDONS:
 -- --------------------------------------------------------
 print("Start: ~/.config/nvim/lua/morty/settings.lua")
 

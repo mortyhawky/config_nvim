@@ -1,8 +1,8 @@
 print("Start: ~/.config/nvim/lua/morty/init.lua")
-require("morty.settings")
-require("morty.navigations")
-require("morty.mappings")
+require("morty.01settings")
 require("morty.autocmds")
+require("morty.mappings")
+require("morty.navigations")
  
 -- ----------------------------
 -- TIPS & TRICKS
