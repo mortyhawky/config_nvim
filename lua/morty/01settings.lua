@@ -47,5 +47,7 @@ vim.opt.showmatch       = true    -- Highlight matching brackets
 vim.opt.cmdheight       = 1       -- Single line command line
 vim.opt.completeopt     = "menuone,noinsert,noselect" -- Completion options
 vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
- 
--- Updated Win11        2026_04_16__17_11
+vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
+vim.opt.pumheight       = 10      -- Popup menu height
+
+-- Updated WslArch      2026_04_16__17_23
