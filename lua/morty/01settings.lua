@@ -8,12 +8,13 @@
 -- --------------------------------------------------------
 print("Start: ~/.config/nvim/lua/morty/settings.lua")
 
+vim.g.mapleader         = " "     -- Space as leader
+
 vim.opt.backup          = false   -- Disable backup files
 vim.opt.swapfile        = false   -- No swapfile (avoids clutter)
-vim.opt.cursorline      = true
-vim.opt.cursorcolumn    = true
+vim.opt.cursorline      = true    -- Highlight current line
+vim.opt.cursorcolumn    = true    -- Highlight current column
 
-vim.g.mapleader         = " "     -- Space as leader
 
 -- --------------------------------------------------------
 -- OPTIONS  from yt: The Rad Lectures
@@ -23,7 +24,7 @@ vim.cmd.colorscheme  ("unokai")   -- Built-in dark colorscheme (no plugin needed
 
 vim.opt.number          = true    -- Show absolute line number on current line
 vim.opt.relativenumber  = true    -- Show relative line numbers for other lines
-vim.opt.cursorline      = true
+--vim.opt.cursorline      = true   -- @ line 12
 vim.opt.wrap            = false   -- Disable line wrapping
 vim.opt.scrolloff       = 8       -- Keep 8 lines above/below cursor
 vim.opt.sidescrolloff   = 8       -- Keep 8 lines to the left/right of cursor
@@ -40,4 +41,8 @@ vim.opt.smartcase       = true    -- Case sensitive if uppercase in string
 vim.opt.hlsearch        = false   -- Don't highlight search results
 vim.opt.incsearch       = true    -- Show results as you type
 
--- Updated ArchDWM      2026_04_16__10_54
+vim.opt.signcolumn      = "yes"   -- Always show sign column
+vim.opt.colorcolumn     = "80"    -- Show a column at 80 pos chars
+vim.opt.showmatch       = true    -- Highlight matching brackets
+
+-- Updated ArchDWM      2026_04_16__11_31
