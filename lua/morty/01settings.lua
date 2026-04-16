@@ -6,7 +6,7 @@
 -- --------------------------------------------------------
 -- MY ADDONS:
 -- --------------------------------------------------------
-print("Start: ~/.config/nvim/lua/morty/settings.lua")
+print("Start: ~/.config/nvim/lua/morty/01settings.lua")
 
 vim.g.mapleader         = " "     -- Space as leader
 
@@ -44,5 +44,7 @@ vim.opt.incsearch       = true    -- Show results as you type
 vim.opt.signcolumn      = "yes"   -- Always show sign column
 vim.opt.colorcolumn     = "80"    -- Show a column at 80 pos chars
 vim.opt.showmatch       = true    -- Highlight matching brackets
+vim.opt.cmdheight       = 1       -- Single line command line
+vim.opt.completeopt     = "menuone,noinsert,noselect" -- Completion options
 
 -- Updated ArchDWM      2026_04_16__11_31
