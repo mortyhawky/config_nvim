@@ -46,5 +46,6 @@ vim.opt.colorcolumn     = "80"    -- Show a column at 80 pos chars
 vim.opt.showmatch       = true    -- Highlight matching brackets
 vim.opt.cmdheight       = 1       -- Single line command line
 vim.opt.completeopt     = "menuone,noinsert,noselect" -- Completion options
-
--- Updated ArchDWM      2026_04_16__16_55
+vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
+ 
+-- Updated Win11        2026_04_16__17_11
