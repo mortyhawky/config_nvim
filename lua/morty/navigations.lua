@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 -- NAVIGATION
 -- --------------------------------------------------------
-print("Start: ~/.config/nvim/lua/morty/navigation.lua")
+--print("Start: ~/.config/nvim/lua/morty/navigation.lua")
 
 --set.mapleader = " "  in settings.lua
 

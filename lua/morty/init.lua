@@ -1,4 +1,4 @@
-print("Start: ~/.config/nvim/lua/morty/init.lua")
+--print("Start: ~/.config/nvim/lua/morty/init.lua")
 require("morty.01settings")
 require("morty.autocmds")
 require("morty.mappings")

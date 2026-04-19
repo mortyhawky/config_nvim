@@ -6,7 +6,16 @@
 -- --------------------------------------------------------
 -- MY ADDONS:
 -- --------------------------------------------------------
-print("Start: ~/.config/nvim/lua/morty/01settings.lua")
+--print("Start: ~/.config/nvim/lua/morty/01settings.lua")
+
+-- Colorscheme based on GUI/CLI mode
+local display = os.getenv("DISPLAY") or os.getenv("WAYLAND_DISPLAY")
+
+if display and display ~= "" then
+  vim.cmd("colorscheme unokai")
+else
+  vim.cmd("colorscheme elflord")
+end
 
 vim.g.mapleader         = " "     -- Space as leader
 
@@ -20,7 +29,7 @@ vim.opt.cursorcolumn    = true    -- Highlight current column
 -- OPTIONS  from yt: The Rad Lectures
 -- --------------------------------------------------------
 vim.opt.termguicolors   = true    -- Enable 24-bit RGB colors (requires supporting terminal)
-vim.cmd.colorscheme  ("unokai")   -- Built-in dark colorscheme (no plugin needed)
+--vim.cmd.colorscheme  ("unokai")   -- Built-in dark colorscheme (no plugin needed)
 
 vim.opt.number          = true    -- Show absolute line number on current line
 vim.opt.relativenumber  = true    -- Show relative line numbers for other lines

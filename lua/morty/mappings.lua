@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 -- MAPPINGS         ~/.config/nvim/lua/morty/mappings.lua
 -- --------------------------------------------------------
-print("Start: ~/.config/nvim/lua/morty/mappings.lua")
+--print("Start: ~/.config/nvim/lua/morty/mappings.lua")
 
 -- Reload init.lua without restarting nvim
 -- Useful during config editing sessions
