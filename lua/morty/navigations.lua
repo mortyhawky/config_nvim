@@ -22,9 +22,9 @@ vim.keymap.set('n', '<C-Left>',   '<Cmd>vertical resize -2<CR>')
 vim.keymap.set('n', '<C-Right>',  '<Cmd>vertical resize +2<CR>')
 
 -- Buffer next: Space-n    Buffer previous: Space-p
-vim.keymap.set('n', '<leader>n',  '<Cmd>bn <CR>')
-vim.keymap.set('n', '<leader>p',  '<Cmd>bp <CR>')
+vim.keymap.set('n', '<leader>nn',  '<Cmd>bn <CR>')
+vim.keymap.set('n', '<leader>pp',  '<Cmd>bp <CR>')
 
 -- Netrw:
-vim.keymap.set('n', '<leader>nr', '<Cmd>Explore <CR>')
+vim.keymap.set('n', '<leader>ff', '<Cmd>Explore <CR>')
 
