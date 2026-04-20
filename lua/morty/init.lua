@@ -9,11 +9,12 @@ require("morty.navigations")
 -- ----------------------------
 -- default map        my map      Description
 -- /cmd               /alias
+--
 -- <C-g>                          Show filename and position (percentage)
 -- g <C-g>                        Show detailed position (line, col, word, byte count)
 --
--- :vs [file]         Space v     Vertical split    Space v
--- :sp [file]         Space h     Horizontal split  Space h
+-- :vs [file]         Space |     Vertical split
+-- :sp [file]         Space -     Horizontal split
 -- nvim .             v .                   Go directly to netrw, starting in current working dir
 -- Ctrl+ Ctrl- Ctrl0  
 -- :Ex               Space nr     :Explore / netrw
@@ -87,4 +88,5 @@ require("morty.navigations")
 --     └── tmux.conf
 -- 
 -- 9 directories, 53 files
---
+
+-- Updated ArchReal 2026-04-20 21:06 Mon

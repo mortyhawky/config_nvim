@@ -2,7 +2,6 @@
 -- 01SETTINGS   ~/.config/nvim/lua/morty/01settings.lua
 -- --------------------------------------------------------
 
-
 -- --------------------------------------------------------
 -- MY ADDONS:
 -- --------------------------------------------------------
@@ -10,6 +9,7 @@
 
 -- Colorscheme based on GUI/CLI mode
 local display = os.getenv("DISPLAY") or os.getenv("WAYLAND_DISPLAY")
+--echo "display"
 
 if display and display ~= "" then
   vim.cmd("colorscheme unokai")
@@ -60,4 +60,4 @@ vim.opt.showmode        = false   -- Do not show the mode, instead have it in st
 vim.opt.pumheight       = 10      -- Popup menu height
 vim.opt.showmode        = false   -- Don't show mode, have it in statusline
 
--- Updated ArchReal     2026-04-19 15:14 Sun
+-- Updated ArchReal   2026-04-20 20:53 Mon

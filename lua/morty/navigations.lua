@@ -1,11 +1,11 @@
 -- --------------------------------------------------------
--- NAVIGATION
+-- NAVIGATION   ~/.config/nvim/lua/morty/navigations.lua
 -- --------------------------------------------------------
 --print("Start: ~/.config/nvim/lua/morty/navigation.lua")
 
---set.mapleader = " "  in settings.lua
+--set.mapleader = " "   -- See: 01settings.lua
 
--- Split    windows with leader/Space v,h
+-- Split    windows with leader/Space |/- (pipe/minus)
 vim.keymap.set('n', '<leader>|', '<Cmd>vertical split<CR>' )
 vim.keymap.set('n', '<leader>-', '<Cmd>split<CR>' )
 
@@ -26,7 +26,8 @@ vim.keymap.set('n', '<leader>nn',  '<Cmd>bn <CR>')
 vim.keymap.set('n', '<leader>pp',  '<Cmd>bp <CR>')
 
 -- Netrw:
-vim.keymap.set('n', '<leader>nr', '<Cmd>Explore <CR>')
-vim.keymap.set('n', '<leader>ex', '<Cmd>Explore <CR>')
+--vim.keymap.set('n', '<leader>nr', '<Cmd>Explore <CR>')
+--vim.keymap.set('n', '<leader>ex', '<Cmd>Explore <CR>')
 vim.keymap.set('n', '<leader>ff', '<Cmd>Explore <CR>')
 
+-- Updated ArchReal   2026-04-20 21:04 Mon

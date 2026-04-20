@@ -1,5 +1,5 @@
 -- --------------------------------------------------------
--- MAPPINGS         ~/.config/nvim/lua/morty/mappings.lua
+-- MAPPINGS   ~/.config/nvim/lua/morty/mappings.lua
 -- --------------------------------------------------------
 --print("Start: ~/.config/nvim/lua/morty/mappings.lua")
 
@@ -13,12 +13,4 @@ vim.keymap.set({ 'n', 'i', 'v', 'c' }, '<C-s>', '<Esc><Cmd>wall <CR>', { desc = 
 -- Make Y behave as D, Yank to end of line
 vim.keymap.set('n', 'Y', 'y$')
 
--- ----------------------------
--- TIPS & TRICKS
--- ----------------------------
--- <C-g>      Show filename and position (percentage)
--- g <C-g>    Show detailed position (line, col, word, byte count)
--- :vs [file] Vertical split   |
--- :sp [file] Horizontal split -
--- nvim .     Open netrw file explorer in current dir
--- Zoom in: Ctrl+   Zoom out: Ctrl-   Zoom default: Ctrl0
+-- Updated ArchReal   2026-04-20 21:02 Mon
