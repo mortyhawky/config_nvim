@@ -26,5 +26,7 @@ vim.keymap.set('n', '<leader>nn',  '<Cmd>bn <CR>')
 vim.keymap.set('n', '<leader>pp',  '<Cmd>bp <CR>')
 
 -- Netrw:
+vim.keymap.set('n', '<leader>nr', '<Cmd>Explore <CR>')
+vim.keymap.set('n', '<leader>ex', '<Cmd>Explore <CR>')
 vim.keymap.set('n', '<leader>ff', '<Cmd>Explore <CR>')
 
