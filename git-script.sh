@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 
-gh auth status
+#gh auth status
 git status
-git add .
+git add -Av
 
 git commit -m "$(date -Iseconds)"
 git push
