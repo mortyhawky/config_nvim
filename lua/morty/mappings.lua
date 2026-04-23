@@ -13,4 +13,5 @@ vim.keymap.set({ 'n', 'i', 'v', 'c' }, '<C-s>', '<Esc><Cmd>wall <CR>', { desc = 
 -- Make Y behave as D, Yank to end of line
 vim.keymap.set('n', 'Y', 'y$')
 
--- Updated ArchReal   2026-04-20 21:02 Mon
+vim.keymap.set("n", "<leader>ru", ":w<CR>:!python %<CR>", { noremap = true, silent = true })
+-- Updated ArchVbox 2026-04-23 21:28
