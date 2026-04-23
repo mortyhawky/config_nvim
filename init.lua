@@ -1,5 +1,5 @@
---print("Start: ~/.config/nvim/init.lua")
+print("Start: ~/.config/nvim/init.lua")
 require("morty")
   -- /home/m/.config/nvim/lua/morty
 
--- Updated ArchReal   2026-04-20 21:06 Mon
+-- Updated on Win11:   2026-04-21 07:35 Tue
