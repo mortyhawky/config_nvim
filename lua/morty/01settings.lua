@@ -58,6 +58,6 @@ vim.opt.completeopt     = "menuone,noinsert,noselect" -- Completion options
 vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
 vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
 vim.opt.pumheight       = 10      -- Popup menu height
-vim.opt.showmode        = false   -- Don't show mode, have it in statusline
+vim.opt.pumblend        = 10      -- Popup menu transparency
 
--- Updated ArchReal   2026-04-20 20:53 Mon
+-- Updated ArchReal 2026-04-24 09:27 Fri
