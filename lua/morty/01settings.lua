@@ -60,5 +60,6 @@ vim.opt.showmode        = false   -- Do not show the mode, instead have it in st
 vim.opt.pumheight       = 10      -- Popup menu height
 vim.opt.pumblend        = 10      -- Popup menu transparency
 vim.opt.winblend        = 0       -- Floating window transparency
+vim.opt.conceallevel    = 0       -- Don't hide markup
 
--- Updated ArchReal 2026-04-24 11:40
+-- Updated ArchVbox 2026-04-24 11:47
