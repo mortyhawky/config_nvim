@@ -61,5 +61,6 @@ vim.opt.pumheight       = 10      -- Popup menu height
 vim.opt.pumblend        = 10      -- Popup menu transparency
 vim.opt.winblend        = 0       -- Floating window transparency
 vim.opt.conceallevel    = 0       -- Don't hide markup
+vim.opt.concealcursor   = ""      -- Don't hide cursorline in markup
 
--- Updated ArchVbox 2026-04-24 11:47
+-- Updated ArchWsl 2026-04-24 11:50
