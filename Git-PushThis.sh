@@ -35,7 +35,7 @@ git commit -m "$(date -Iseconds)" -v  |grep -i --color=always "changed"
 f_pause
 
 #clear
-echo "command:  git push"
+#echo "command:  git push"
 #git push -v |grep -i --color=always "pushing"
 #git push -v |grep -i --color=always "write"
-git push --porcelain |grep -i --color "To https"
+#git push --porcelain |grep -i --color "To https"
