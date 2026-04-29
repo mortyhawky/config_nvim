@@ -54,9 +54,7 @@ vim.opt.signcolumn      = "yes"   -- Always show sign column
 vim.opt.colorcolumn     = "80"    -- Show a column at 80 pos chars
 vim.opt.showmatch       = true    -- Highlight matching brackets
 vim.opt.cmdheight       = 1       -- Single line command line
-vim.opt.completeopt     = "menuone"   -- Completion
-vim.opt.completeopt     = "noinsert"  -- options.
-vim.opt.completeopt     = "noselect"  
+vim.opt.completeopt     = "menuone,noinsert,noselect"
 vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
 vim.opt.showmode        = false   -- Do not show the mode, instead have it in statusline
 vim.opt.pumheight       = 10      -- Popup menu height
@@ -70,3 +68,4 @@ vim.opt.fillchars       = {eob=" "}   -- Hide "~" on empty lines
 
 -- Updated hpWin    2026-04-28 14:42 Tue
 -- Updated acerWSL  2026-04-28 18:36 Tue
+-- Updated acerWin  2026-04-29 07:07 Wed
